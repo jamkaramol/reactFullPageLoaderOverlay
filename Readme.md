@@ -22,13 +22,15 @@ npm i react-full-page-loader-overlay
 
 ````
 import React from "react";
-import { Loader } from "loader";
+import { Loader } from "react-full-page-loader-overlay";
 
 const Example = () => {
    return (
       <Loader show={true}  />
    );
 }
+
+export default Example;
 ````
 
 ## All props information 
