@@ -8,15 +8,15 @@
 }
 
 @keyframes left-part-1 {
-    0%  {left: 45%}
+    0%  {left: 44%}
     50% {left: 33%; top: 20%;}
-    100% {left: 45%}  
+    100% {left: 44%}  
 }
 
 @keyframes left-part-2 {
-    0%  {left: 45%}
+    0%  {left: 44%}
     50% {left: 36% ;  top: 50%;}
-    100% {left: 45%}  
+    100% {left: 44%}  
 }
 
 @keyframes left-part-3 {
@@ -32,27 +32,27 @@
 }
 
 @keyframes left-part-1-design-3 {
-    0%  {left: 45%}
+    0%  {left: 44%}
     50% {left: 37%;}
-    100% {left: 45%} 
+    100% {left: 44%} 
 }
 
 @keyframes left-part-2-design-3 {
-    0%  {left: 45%}
+    0%  {left: 44%}
     50% {left: 40%;}
-    100% {left: 45%} 
+    100% {left: 44%} 
 }
 
 @keyframes right-part-1 {
-    0%  {right: 43%}
+    0%  {right: 44%}
     50% {right: 36%;top: 50%; }
-    100% {right: 43%}  
+    100% {right: 44%}  
 }
 
 @keyframes right-part-2 {
-    0%  {right: 43%}
+    0%  {right: 44%}
     50% {right: 33%; top: 20%;}
-    100% {right: 43%}  
+    100% {right: 44%}  
 }
 @keyframes right-part-3 {
     0%  {right: 43%}
@@ -109,8 +109,8 @@
   animation: loader-animation 1.5s infinite  ease-in-out;
 }
 .react-loader-container-main .react-loader-container-main-textStyle {
-  margin: 0px auto;
-  font-size: 30px;
+  margin: 25px auto;
+  font-size: 24px;
   font-style: initial;
 }
 .left-1-animation {
@@ -205,7 +205,7 @@
 
 .right-1 {
     position: fixed;
-    right:40%;
+    right:45%;
     top: 35%;
     text-align: center;
     z-index: 16777260;
@@ -217,7 +217,7 @@
 
 .right-2 {
     position: fixed;
-    right:40%;
+    right:45%;
     top: 35%;
     text-align: center;
     z-index: 16777260;
