@@ -57,8 +57,8 @@ function Loader({
     return (
         <React.Fragment>
             <div className="loaderOverlay">
-                <div className="container" style={{borderColor:centerBorder}}> 
-                    <p className="textStyle">
+                <div className="react-loader-container-main fixedWidth" style={{borderColor:centerBorder}}> 
+                    <p className="react-loader-container-main-textStyle">
                     {text}
                     </p>
                 </div>
