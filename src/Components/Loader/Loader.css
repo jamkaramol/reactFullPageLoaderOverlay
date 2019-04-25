@@ -67,15 +67,15 @@
 }
 
 @keyframes right-part-1-design-3 {
-    0%  {right: 43%}
+    0%  {right: 45%}
     50% {right: 37%;}
-    100% {right: 43%} 
+    100% {right: 45%} 
 }
 
 @keyframes right-part-2-design-3 {
-    0%  {right: 43%}
+    0%  {right: 45%}
     50% {right: 34%;}
-    100% {right: 43%} 
+    100% {right: 45%} 
 }
 
 .fillIn {
