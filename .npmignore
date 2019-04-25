@@ -1,0 +1,4 @@
+/node_modules
+.storybook
+webpack.config.js
+/data

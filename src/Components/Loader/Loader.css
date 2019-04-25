@@ -1,0 +1,250 @@
+@keyframes loader-animation {
+  0% {width: 100px;height: 100px;}
+  20% {width: 105px;height: 105px;}
+  40% {width: 100px;height: 100px;}
+  60% {width: 105px;height: 105px;}
+  80% { width: 103px;height: 103px;}
+  100% {width: 100px;height: 100px;}
+}
+
+@keyframes left-part-1 {
+    0%  {left: 45%}
+    50% {left: 33%; top: 20%;}
+    100% {left: 45%}  
+}
+
+@keyframes left-part-2 {
+    0%  {left: 45%}
+    50% {left: 36% ;  top: 50%;}
+    100% {left: 45%}  
+}
+
+@keyframes left-part-3 {
+    0%  {left: 55%}
+    50% {left: 53%; top: 30%;}
+    100% {left: 55%}  
+}
+
+@keyframes left-part-4 {
+    0%  {left: 40%}
+    50% {left: 46% ;  top: 60%;}
+    100% {left: 45%}  
+}
+
+@keyframes left-part-1-design-3 {
+    0%  {left: 45%}
+    50% {left: 37%;}
+    100% {left: 45%} 
+}
+
+@keyframes left-part-2-design-3 {
+    0%  {left: 45%}
+    50% {left: 40%;}
+    100% {left: 45%} 
+}
+
+@keyframes right-part-1 {
+    0%  {right: 43%}
+    50% {right: 36%;top: 50%; }
+    100% {right: 43%}  
+}
+
+@keyframes right-part-2 {
+    0%  {right: 43%}
+    50% {right: 33%; top: 20%;}
+    100% {right: 43%}  
+}
+@keyframes right-part-3 {
+    0%  {right: 43%}
+    50% {right: 50%;top: 30%;}
+    100% {right: 43%}  
+}
+
+@keyframes right-part-4 {
+    0%  {right: 53%}
+    50% {right: 50%; top: 60%;}
+    100% {right: 53%}  
+}
+
+@keyframes right-part-1-design-3 {
+    0%  {right: 43%}
+    50% {right: 37%;}
+    100% {right: 43%} 
+}
+
+@keyframes right-part-2-design-3 {
+    0%  {right: 43%}
+    50% {right: 34%;}
+    100% {right: 43%} 
+}
+
+.fillIn {
+    background: #eee;
+}
+
+.fixedWidth {
+    height: 90px;
+    width: 90px;
+}
+
+.loaderOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 15777271;
+}
+
+  .container {
+  text-align: center;
+  position: fixed;
+  left: 44%;
+  top: 35%;
+  z-index: 16777271;
+  background: #fff;
+  border-radius: 100px;
+  padding: 30px;
+  border: 10px red solid;
+  transform-style: preserve-3d;
+  animation: loader-animation 1.5s infinite  ease-in-out;
+}
+.container .textStyle {
+  margin: 10px auto;
+  font-size: 30px;
+  margin-top:30px;
+  font-style: initial;
+}
+.left-1-animation {
+    animation: left-part-1 1.2s infinite alternate ease-in-out;
+}
+.left-2-animation {
+    animation: left-part-2 1.2s infinite alternate ease-in-out;
+}
+.left-3-animation {
+    animation: left-part-3 1.2s infinite alternate ease-in-out;
+}
+.left-4-animation {
+    animation: left-part-4 1.2s infinite alternate ease-in-out;
+}
+
+.left-1-animation-design-3 {
+    animation: left-part-1-design-3 1.5s infinite alternate ease-in-out;    
+}
+
+.left-2-animation-design-3 {
+    animation: left-part-2-design-3 1.5s infinite alternate ease-in-out;    
+}
+
+.right-1-animation {
+    animation: right-part-1 1.2s infinite alternate ease-in-out;
+}
+.right-2-animation {
+    animation: right-part-2 1.2s infinite alternate ease-in-out;
+}
+.right-3-animation {
+    animation: right-part-3 1.2s infinite alternate ease-in-out;
+}
+.right-4-animation {
+    animation: right-part-4 1.2s infinite alternate ease-in-out;
+}
+
+.right-1-animation-design-3 {
+    animation: right-part-1-design-3 1.5s infinite alternate ease-in-out;    
+}
+
+.right-2-animation-design-3 {
+    animation: right-part-2-design-3 1.5s infinite alternate ease-in-out;    
+}
+
+.left-1 {
+    position: fixed;
+    left:45%;
+    top: 35%;
+    text-align: center;
+    z-index: 16777260;
+    border-radius: 100px;
+    padding: 30px;
+    border: 10px green solid;
+    transform-style: preserve-3d;  
+}
+
+.left-2 {
+    position: fixed;
+    left:45%;
+    top: 35%;
+    text-align: center;
+    z-index: 16777260;
+    border-radius: 100px;
+    padding: 30px;
+    border: 10px green solid;
+    transform-style: preserve-3d;  
+}
+
+.left-3 {
+    position: fixed;
+    left:45%;
+    top: 65%;
+    text-align: center;
+    z-index: 16777260;
+    border-radius: 100px;
+    padding: 30px;
+    border: 10px green solid;
+    transform-style: preserve-3d;  
+}
+
+.left-4 {
+    position: fixed;
+    left:45%;
+    top: 65%;
+    text-align: center;
+    z-index: 16777260;
+    border-radius: 100px;
+    padding: 30px;
+    border: 10px green solid;
+    transform-style: preserve-3d;
+}
+
+.right-1 {
+    position: fixed;
+    right:40%;
+    top: 35%;
+    text-align: center;
+    z-index: 16777260;
+    border-radius: 100px;
+    padding: 30px;
+    border: 10px yellow solid;
+    transform-style: preserve-3d;  
+}
+
+.right-2 {
+    position: fixed;
+    right:40%;
+    top: 35%;
+    text-align: center;
+    z-index: 16777260;
+    border-radius: 100px;
+    padding: 30px;
+    border: 10px yellow solid; 
+}
+
+.right-3 {
+    position: fixed;
+    right:40%;
+    top: 35%;
+    text-align: center;
+    z-index: 16777260;
+    border-radius: 100px;
+    padding: 30px;
+    border: 10px yellow solid;  
+}
+
+.right-4 {
+    position: fixed;
+    right:40%;
+    top: 35%;
+    text-align: center;
+    z-index: 16777260;
+    border-radius: 100px;
+    padding: 30px;
+    border: 10px yellow solid;  
+}
