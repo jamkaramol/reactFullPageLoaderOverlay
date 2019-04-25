@@ -43,6 +43,17 @@ const Example = () => {
 | leftBorder | Hex color code or color name | Default is green |
 | rightBorder | Hex color code or color name | Default is yellow |
 
+## Author
+Amol B Jamkar (full stack developer)
+jamkar.amol@gmail.com
+
+[LinkedIn profile]
+
+
+## License
+
+Free to use 
 
 
    [ReactJS]: <https://reactjs.org/>
+   [LinkedIn profile]: <https://www.linkedin.com/in/amol-jamkar-8ab611103/>

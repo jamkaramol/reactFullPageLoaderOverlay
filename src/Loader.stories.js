@@ -1,6 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { Loader } from './index';
+import "./Components/Loader/Loader.css";
 
 storiesOf('Loader')
 	.add('With show false', () => <Loader show={false} />)
