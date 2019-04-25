@@ -1,6 +1,6 @@
 {
   "name": "react-full-page-loader-overlay",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Full page loader for ReactJS with css 3 animations",
   "main": "dist/loader.js",
   "scripts": {
